@@ -1,0 +1,13 @@
+{
+  "id": "sleeper",
+  "cpus": "{{{sleeper.cpus}}}",
+  "mem": "1024",
+  "instances": "1",
+  "cmd": "echo sleeping for {{{sleeper.duration}}}; sleep {{{sleeper.duration}}}",
+  "container": {
+    "type": "MESOS",
+    "docker": {
+      "image": "library/alpine",
+    }
+  }
+}

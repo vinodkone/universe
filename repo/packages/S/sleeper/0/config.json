@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {
+    "sleeper": {
+      "type": "object",
+      "properties": {
+        "cpus": {
+          "type": "integer",
+          "description": "How many cpus to use.",
+          "minimum": 1,
+          "maximum": 3,
+          "default": 2
+        },
+        "duration": {
+          "type": "integer",
+          "description": "How many seconds to sleep.",
+          "minimum": 10,
+          "maximum": 100,
+          "default": 20
+        }
+      },
+      "required": ["cpus", "duration"]
+    }
+  },
+  "required": ["sleeper"]
+}
+

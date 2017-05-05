@@ -1,0 +1,13 @@
+{
+  "packagingVersion": "3.0",
+  "name": "sleeper",
+  "version": "0.0.1",
+  "tags": ["mesosphere", "framework", "vinod", "sleeper"],
+  "maintainer": "vinod@mesosphere.io",
+  "description": "Sleeper Program.",
+  "scm": "https://github.com/vinodkone/dcos-sleeper-package.git",
+  "website": "https://github.com/vinodkone/dcos-sleeper-package.git",
+  "framework": false,
+  "postInstallNotes": "Good night!"
+}
+
